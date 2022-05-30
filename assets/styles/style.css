@@ -2523,6 +2523,55 @@ i.fas.fa-check {
     font-size: 8px;
     vertical-align: middle;
 }
+.btn-copy {
+  height: 30px; 
+  width: 100px;
+  background-color: #5666a5 !important;
+}
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label-check {
+  width: 50px;
+  height: 25px;
+  background-color:#111;
+  display: flex;
+  border-radius:50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label-check .ball{
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: pink;
+}
+
+.fa-sun {
+  color: yellow;
+}
+
+/* -----------------------------------------------------------------
+    - Snow
+----------------------------------------------------------------- */
 @-webkit-keyframes snowflakes-fall {
   0% {
       top: -10%;
@@ -2661,9 +2710,4 @@ i.fas.fa-check {
 }
 .snowflake img {
   height: 17px;
-}
-.btn-copy {
-  height: 30px; 
-  width: 100px;
-  background-color: #5666a5 !important;
 }
