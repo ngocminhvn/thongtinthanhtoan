@@ -33,7 +33,7 @@
 
 @import url("bootstrap.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
 
 :root {
   --background: linear-gradient(145.44deg, #F2F4FA 0%, #FAFBFC 100%);
